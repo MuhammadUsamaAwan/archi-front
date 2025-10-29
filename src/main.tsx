@@ -3,9 +3,12 @@ import { RouterProvider } from "@tanstack/react-router";
 import { createRoot } from "react-dom/client";
 import { queryClient } from "~/lib/query-client";
 import { router } from "~/lib/router";
+import { reportWebVitals } from "./report-web-vitals";
 
 createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>
     <RouterProvider router={router} />
   </QueryClientProvider>
 );
+
+reportWebVitals(console.log);
