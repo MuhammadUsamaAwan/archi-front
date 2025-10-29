@@ -53,10 +53,5 @@
     "overrides": {
       "vite": "npm:rolldown-vite@7.1.14"
     }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js,jsx,json,css}": [
-      "pnpm check"
-    ]
   }
 }
