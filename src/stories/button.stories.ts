@@ -10,14 +10,42 @@ const meta = {
   },
   tags: ["autodocs"],
   argTypes: {},
-  args: { onClick: fn() },
+  args: { onClick: fn(), children: "Button" },
 } satisfies Meta<typeof Button>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
+  args: {},
+};
+
+export const Secondary: Story = {
   args: {
-    children: "Button",
+    variant: "secondary",
+  },
+};
+
+export const Outline: Story = {
+  args: {
+    variant: "outline",
+  },
+};
+
+export const Ghost: Story = {
+  args: {
+    variant: "ghost",
+  },
+};
+
+export const Link: Story = {
+  args: {
+    variant: "link",
+  },
+};
+
+export const Destructive: Story = {
+  args: {
+    variant: "destructive",
   },
 };

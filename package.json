@@ -17,8 +17,7 @@
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
     "prepare": "husky",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006 --no-open"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
