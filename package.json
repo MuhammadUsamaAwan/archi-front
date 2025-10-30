@@ -43,6 +43,7 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@storybook/addon-a11y": "^10.0.1",
+    "@storybook/addon-themes": "^10.0.2",
     "@storybook/react-vite": "^10.0.1",
     "@tanstack/router-plugin": "^1.133.36",
     "@testing-library/jest-dom": "^6.9.1",
