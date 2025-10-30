@@ -1,6 +1,7 @@
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
 import { changeLanguage } from "i18next";
 import { useTranslation } from "react-i18next";
+import { Button } from "~/components/ui/button";
 
 const RootLayout = () => {
   const { t } = useTranslation();
@@ -16,12 +17,12 @@ const RootLayout = () => {
         </Link>
       </div>
       <hr />
-      <button onClick={() => changeLanguage("en")} className="mx-2 mt-2 cursor-pointer border px-1">
+      <Button onClick={() => changeLanguage("en")} className="mx-2 mt-2">
         Change to English
-      </button>
-      <button onClick={() => changeLanguage("es")} className="mt-2 cursor-pointer border px-1">
+      </Button>
+      <Button onClick={() => changeLanguage("es")} className="mt-2">
         Change to Spanish
-      </button>
+      </Button>
       <Outlet />
     </>
   );

@@ -7,14 +7,14 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!**/src/routeTree.gen.ts"]
+    "includes": ["**", "!**/src/routeTree.gen.ts", "!**/src/styles.css"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 120,
-    "includes": ["**", "!**/src/routeTree.gen.ts"]
+    "includes": ["**", "!**/src/routeTree.gen.ts", "!**/src/styles.css"]
   },
   "javascript": {
     "formatter": {
@@ -58,6 +58,6 @@
         "useButtonType": "off"
       }
     },
-    "includes": ["**", "!**/src/routeTree.gen.ts"]
+    "includes": ["**", "!**/src/routeTree.gen.ts", "!**/src/styles.css"]
   }
 }
